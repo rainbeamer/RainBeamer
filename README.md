@@ -7,6 +7,7 @@ Welcome to my Portfolio Page. I am looking forward to this class. I hope to lear
 - I enjoy computers.
 - My favorite food is applesauce.
 - I enjoy listening to many types of music.
+- I enjoy learning about HTML.
 
 [Github](https://github.com/rainbeamer)
 
