@@ -5,18 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="../css/style.css">
   <style>
+  html {
+    box-sizing: border-box;
+    background-color: #F0E68C;
+     }
      .section2 {
        background-color: lightblue;
 
      }
      .section3 {
        background-color: lightgreen;
-
+       border: 2px solid gray;
      }
      .section4 {
         background-color: pink;
         color:purple;
+        border: 1px solid green;
+      }
+      .section1 {
+        background-color: bisque;
+
       }
       h1 {
         color: red;
@@ -27,13 +37,20 @@
       .highlight {
         color: darkgreen;
         background-color: yellow;
-
+      }
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      div {
+        padding: 5px 10px 5px 10px;
+        margin: 20px;
       }
   </style>
 
 </head>
 <body>
-  <div id="navagation" class="section1">
+  <div id="navagation" class="section1" class="container">
     <a href="../index.html">Home</a>
     <a href="../projects/index.html">Projects</a>
     <a href="../media/index.html">Media</a>
@@ -41,17 +58,17 @@
   </div>
 
 
-  <div id="headerarea" class="section2">
+  <div id="headerarea" class="section2" class="container">
     <h1>Carisa's Blog</h1>
-    <img src="../Carisa1.jpg" alt="Photo of Carisa" style="height:200px; width=200px";>
+    <img src="../Carisa2.jpg" alt="Photo of Carisa" style="height:200px; width=200px";>
   </div>
 
 
-  <div id="content" class="section3">
+  <div id="content" class="section3" class="container">
     <h2>About Me</h2>
     <p><span class="highlight">Welcome</span> to my site. I am learning to create websites.
   </div>
-  <div id="footerarea" class="section4">
+  <div id="footerarea" class="section4" class="container">
      <p>Feel free to email me.</p>
      <a href="mailto:rainbeamer@gmail.com?Subject=Contact%20Form">Contact Me</a>
      <p>&copy 2018<p>
