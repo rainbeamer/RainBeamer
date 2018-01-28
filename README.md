@@ -1,4 +1,4 @@
-![Photo of Carisa](Carisa1.jpg)
+![Photo of Carisa](Carisa2.jpg)
 
 # Portfolio Page
 
@@ -14,3 +14,5 @@ Welcome to my Portfolio Page. I am looking forward to this class. I hope to lear
 [linkedin](http://www.linkedin.com/in/rainbeamer/)
 
 [Twitter](https://twitter.com/rainbeamer)
+
+[My website](https://competent-ptolemy-5735dc.netlify.com)
