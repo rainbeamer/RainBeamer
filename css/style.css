@@ -2,38 +2,72 @@ html {
   box-sizing: border-box;
   background-color: #F0E68C;
    }
-   .section2 {
-     background-color: lightblue;
 
+body {
+     background-color: lightcoral;
+     color: blue
+}
+ol {
+     color: green;
    }
-   .section3 {
-     background-color: lightgreen;
-     border: 2px solid gray;
-   }
-   .section4 {
-      background-color: pink;
-      color:purple;
-      border: 1px solid green;
-    }
-    .section1 {
-      background-color: bisque;
+.section2 {
+ background-color: lightblue;
 
-    }
-    h1 {
-      color: red;
-    }
-    h2 {
-      color: purple;
-    }
-    .highlight {
-      color: darkgreen;
-      background-color: yellow;
-    }
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-    }
-    div {
-      padding: 5px 10px 5px 10px;
-      margin: 20px;
-    }
+}
+.section3 {
+ background-color: lightgreen;
+ border: 2px solid gray;
+}
+.section4 {
+  background-color: pink;
+  color:purple;
+  border: 1px solid green;
+}
+.section1 {
+  background-color: lightcoral;
+
+}
+h1 {
+  color: darkgreen;
+}
+h2 {
+  color: purple;
+}
+.highlight {
+  color: darkgreen;
+  background-color: yellow;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+div {
+  padding: 5px 10px 5px 10px;
+  margin: 20px;
+}
+.mediawelcome {
+  color: purple;
+  font-weight: bold;
+}
+
+}
+h3 {
+  color: blue;
+}
+.bodystyle {
+  background-color: lightcoral;
+
+}
+p{
+  color: green;
+  }
+
+#main {
+  color: crimson;
+}
+.name {
+  color: darkgreen;
+}
+.funfacts {
+  color: purple;
+}
