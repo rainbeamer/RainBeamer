@@ -6,6 +6,8 @@ html {
 body {
      background-color: lightcoral;
      color: blue
+     margin-bottom: 20px;
+     padding-bottom: 20px;
 }
 ol {
      color: green;
@@ -43,7 +45,7 @@ h2 {
 }
 div {
   padding: 5px 10px 5px 10px;
-  margin: 20px;
+  margin: 10px;
 }
 .mediawelcome {
   color: purple;
@@ -70,4 +72,24 @@ p{
 }
 .funfacts {
   color: purple;
+}
+input, option, textarea, option, optgroup {
+  background-color: peachpuff;
+
+}
+/* label, optgroup, select {
+  background-color: palegoldenrod;
+*/
+
+
+.labelcolor {
+  color: purple;
+}
+
+
+
+}
+textarea {
+  width: 250px;
+  height: 300px;
 }
