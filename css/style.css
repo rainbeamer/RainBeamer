@@ -5,7 +5,7 @@ html {
 
 body {
      background-color: lightcoral;
-     color: blue
+     color: blue;
      margin-bottom: 20px;
      padding-bottom: 20px;
 }
@@ -52,7 +52,7 @@ div {
   font-weight: bold;
 }
 
-}
+
 h3 {
   color: blue;
 }
@@ -60,6 +60,9 @@ h3 {
   background-color: lightcoral;
 
 }
+
+
+
 p{
   color: green;
   }
@@ -87,9 +90,48 @@ input, option, textarea, option, optgroup {
 }
 
 
-
-}
 textarea {
   width: 250px;
   height: 300px;
+}
+#headerarea {
+  margin-top: 1.3em;
+}
+
+
+
+.navigation > ul > li {
+  position: relative;
+  display: inline;
+  list-style: none;
+}
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100vw;
+}
+
+
+
+.navigation .dropdown {
+  position: absolute;
+  top: 1em;
+  right: 0;
+  display: none;
+}
+
+.navigation a:hover + .dropdown {
+  display: block;
+}
+
+.navigation > ul.container {
+  //these styles will extend the styles already contained in the .container class
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
 }
