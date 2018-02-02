@@ -99,11 +99,17 @@ textarea {
 }
 
 
+.navigation > ul > li > ul > li {
 
+
+list-style: none;
+
+}
 .navigation > ul > li {
   position: relative;
   display: inline;
   list-style: none;
+
 }
 .navigation {
   position: fixed;
@@ -111,22 +117,38 @@ textarea {
   left: 0;
   height: auto;
   width: 100vw;
+  margin-bottom: 10px;
+
 }
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-
-.navigation .dropdown {
+.dropdown-content {
   position: absolute;
   top: 1em;
   right: 0;
   display: none;
+  width: 100px;
+  background-color: lightyellow;
+  border: 3px purple solid;
+  padding: 10px;
 }
 
 .navigation a:hover + .dropdown {
   display: block;
+
+  background-color: lightyellow;
+
+
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+
 }
 
-.navigation > ul.container {
+.navigation li >  ul.container {
   //these styles will extend the styles already contained in the .container class
   display: flex;
   flex-direction: row;
