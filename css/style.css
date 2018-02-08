@@ -165,3 +165,7 @@ list-style: none;
   color:purple;
   border: 1px solid brown;
 }
+#instructheadline {
+  padding-left: 30px;
+  color: darkgreen;
+}
