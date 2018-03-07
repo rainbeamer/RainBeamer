@@ -28,6 +28,13 @@ ol {
   color:purple;
   border: 1px solid green;
 }
+.section4 h2 {
+  color: green;
+}
+.content {
+  background-color: lightyellow;
+  border: 1px solid navy;
+}
 .section1 {
   background-color: lightcoral;
 
