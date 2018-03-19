@@ -1,3 +1,4 @@
+//Previous array exercise
 //Forming an array to hold contact items and printing them to the HTML page
 // var contactArray = ["Seize the day!", "Carisa Brown", "1664 Greendale Way Apt. 428", "Hixson, TN 37343", "423-877-8688", "09/23/75", "yellow"];
 //

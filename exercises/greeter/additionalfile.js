@@ -28,6 +28,7 @@ var checkAge = function() {
 checkAge();
 
 alert(name + ' is ' + age + ' years old.');
+// Exerise to create a knock knock joke
 alert(`Knock, knock-Who's there? `);
 alert('Computer')
 alert('Computer who?');

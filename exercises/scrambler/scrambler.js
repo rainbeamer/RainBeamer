@@ -1,3 +1,5 @@
+//jQuery example
+
 function stringPrinter(starterString){
   $('#output').append(starterString);
   }

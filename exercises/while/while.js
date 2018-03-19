@@ -1,4 +1,4 @@
-
+//exercises demontrating loops
 //exercise 1
 var n = 1;
 var outputTarget = document.querySelector("#exercise-1");
