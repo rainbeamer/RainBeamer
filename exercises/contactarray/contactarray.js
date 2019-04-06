@@ -28,16 +28,16 @@
 
 var contactObject ={ "quote" : "Seize the day",
                     "name"  : "Carisa Brown",
-                    "address1": "1664 Greendale Way Apt. 428",
-                    "address2" : "Hixson, TN 37343",
-                    "phone" : "423-877-8688",
-                    "dateofbirth": "09/23/75",
-                    "favcolor": "yellow"
+                    "address1": "1234 Any Address",
+                    "address2" : "AnyCity, TN 37243",
+                    "phone" : "423-555-5555",
+                    "dateofbirth": "03/24/24",
+                    "favcolor": "peach"
                   }
 
 
 contactObject["favfood"] = "applesauce";
-contactObject["email"] = "rainbeamer@bellsouth.net";
+contactObject["email"] = "rainbeamer@anyaddress.com";
 
 var elementLister = function( contactElement ){
   var listString = "<li>" + contactElement + "</li>";

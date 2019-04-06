@@ -2,7 +2,7 @@ var userWins = "You win!";
 var computerWins = "The computer wins!";
 var roundCounter = 0;
 var gameRound = function() {
-var userChoice = prompt("Choose Rock, Paper, or Scissor by typing 'R', 'P', or 'S'");
+var userChoice = prompt("Choose Rock, Paper, or Scissor by typing in capital letters 'R', 'P', or 'S'");
 // if (userChoice == "") {
 //   userChoice="invalid";
 // } else if (userChoice !=="R" || userChoice !=="S" || userChoice !=="P") {
